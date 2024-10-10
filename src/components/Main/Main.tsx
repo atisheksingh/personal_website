@@ -4,17 +4,23 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
-import wordpress from "../../assets/wordpress.svg";
+import wordpress from "../../assets/vscode-icon.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
+import cssIcon from "../../assets/solidity-svgrepo-com.svg";
 import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import dockerIcon from "../../assets/docker-svgrepo-com.svg"
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import vueIcon from "../../assets/ethereum-eth-logo-diamond-purple.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+
+
+
+//<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
+{/* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>  */}
 
 export function Main() {
   return (
@@ -178,11 +184,11 @@ export function Main() {
                   "width": 20,
                   "height": 20
                 },
-                // {
-                //   "src": mysqlIcon,
-                //   "width": 20,
-                //   "height": 20
-                // },
+                {
+                  "src": dockerIcon,
+                  "width": 20,
+                  "height": 20
+                },
                 {
                   "src": nodeIcon,
                   "width": 20,

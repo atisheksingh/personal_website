@@ -6,6 +6,10 @@ import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
+import dockerIcon from "../../assets/docker-svgrepo-com.svg"
+import solidityIcon from "../../assets/solidity-svgrepo-com.svg"
+import ethIcon from "../../assets/ethereum-eth-logo-diamond-purple.svg";
+import golang from "../../assets/go-svgrepo-com.svg"
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
@@ -37,12 +41,12 @@ export function About() {
         <div className="hard-skills">
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+              <img src={solidityIcon} alt="Solidity" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
+              <img style={{height:"35px"}} src={ethIcon} alt="ethIcon" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -57,7 +61,7 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+              <img src={dockerIcon} alt="docker" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -72,7 +76,7 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={cssIcon} alt="Css" />
+              <img style={{height:"45px", width:"45px"}} src={golang} alt="Go lang" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -89,7 +93,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={atishek} alt="atishek singh" />
+          <img style={{borderRadius: "15px", opacity: "80%"}} src={atishek} alt="atishek singh" />
         </ScrollAnimation>
       </div>
     </Container>
