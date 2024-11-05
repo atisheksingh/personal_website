@@ -14,6 +14,8 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import uniswap from  '../../assets/uniswap-uni-logo.svg';
+import aws from '../../assets/aws-svgrepo-com.svg'
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -81,12 +83,17 @@ export function About() {
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+              <img src={uniswap} alt="bootstrap" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={aws} alt="JavaScript" />
             </ScrollAnimation>
           </div>
         </div>

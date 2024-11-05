@@ -15,7 +15,8 @@ import reactIcon from "../../assets/react-icon.svg";
 import dockerIcon from "../../assets/docker-svgrepo-com.svg"
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/ethereum-eth-logo-diamond-purple.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
+// import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import uniswap from "../../assets/uniswap-uni-logo.svg";
 
 
 
@@ -155,7 +156,7 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": uniswap,
                   "width": 20,
                   "height": 20
                 },
